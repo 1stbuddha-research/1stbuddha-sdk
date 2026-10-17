@@ -1,0 +1,46 @@
+{
+  "name": "1stbuddha",
+  "version": "1.0.0",
+  "description": "Official read-only JavaScript client and CLI for the 1stBuddha public antique Buddha and Asian art catalog.",
+  "type": "module",
+  "exports": "./index.js",
+  "bin": {
+    "1stbuddha": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "homepage": "https://1stbuddha.com/developers",
+  "author": {
+    "name": "1stBuddha",
+    "email": "sales@1stbuddha.com",
+    "url": "https://1stbuddha.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "1stbuddha",
+    "buddha",
+    "catalog",
+    "sdk",
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1stbuddha-research/1stbuddha-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1stbuddha-research/1stbuddha-sdk/issues"
+  }
+}

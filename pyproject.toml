@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "1stbuddha"
+version = "1.0.0"
+description = "Official read-only Python client for the 1stBuddha public antique Buddha and Asian art catalog"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "1stBuddha", email = "sales@1stbuddha.com"}]
+keywords = ["1stbuddha", "buddha", "catalog", "sdk"]
+
+[project.urls]
+Homepage = "https://1stbuddha.com/developers"
+Documentation = "https://1stbuddha.com/developers"
+Source = "https://github.com/1stbuddha-research/1stbuddha-sdk"
+
+[project.scripts]
+firstbuddha = "firstbuddha:main"
+
+[tool.setuptools]
+py-modules = ["firstbuddha"]
