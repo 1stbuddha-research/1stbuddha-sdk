@@ -2,7 +2,7 @@
 
 Source for the JavaScript and Python public catalog clients at https://1stbuddha.com.
 
-**Release status:** source published; registry releases pending account verification. Installation commands below apply after the corresponding registry release is published.
+**Release status:** JavaScript SDK and CLI 1.0.0 are [published on npm](https://www.npmjs.com/package/1stbuddha). The Python wheel is available from [GitHub Releases](https://github.com/1stbuddha-research/1stbuddha-sdk/releases/tag/v1.0.0); PyPI publication is pending. Install Python from the downloadable wheel until that registry release is published.
 
 ## JavaScript SDK and CLI
 
